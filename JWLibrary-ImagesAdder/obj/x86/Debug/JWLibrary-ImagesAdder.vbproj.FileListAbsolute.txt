@@ -1,0 +1,12 @@
+C:\Users\Dario Ragusa\Desktop\GitHub projects\JWLibrary-ImagesAdder\JWLibrary-ImagesAdder\bin\Debug\JWLibrary-ImagesAdder.exe
+C:\Users\Dario Ragusa\Desktop\GitHub projects\JWLibrary-ImagesAdder\JWLibrary-ImagesAdder\bin\Debug\JWLibrary-ImagesAdder.pdb
+C:\Users\Dario Ragusa\Desktop\GitHub projects\JWLibrary-ImagesAdder\JWLibrary-ImagesAdder\bin\Debug\JWLibrary-ImagesAdder.xml
+C:\Users\Dario Ragusa\Desktop\GitHub projects\JWLibrary-ImagesAdder\JWLibrary-ImagesAdder\obj\x86\Debug\JWLibrary_ImagesAdder.Form1.resources
+C:\Users\Dario Ragusa\Desktop\GitHub projects\JWLibrary-ImagesAdder\JWLibrary-ImagesAdder\obj\x86\Debug\JWLibrary_ImagesAdder.Resources.resources
+C:\Users\Dario Ragusa\Desktop\GitHub projects\JWLibrary-ImagesAdder\JWLibrary-ImagesAdder\obj\x86\Debug\JWLibrary-ImagesAdder.vbproj.GenerateResource.Cache
+C:\Users\Dario Ragusa\Desktop\GitHub projects\JWLibrary-ImagesAdder\JWLibrary-ImagesAdder\obj\x86\Debug\JWLibrary-ImagesAdder.exe
+C:\Users\Dario Ragusa\Desktop\GitHub projects\JWLibrary-ImagesAdder\JWLibrary-ImagesAdder\obj\x86\Debug\JWLibrary-ImagesAdder.xml
+C:\Users\Dario Ragusa\Desktop\GitHub projects\JWLibrary-ImagesAdder\JWLibrary-ImagesAdder\obj\x86\Debug\JWLibrary-ImagesAdder.pdb
+C:\Users\Dario Ragusa\Desktop\GitHub projects\JWLibrary-ImagesAdder\JWLibrary-ImagesAdder\bin\Debug\Devart.Data.dll
+C:\Users\Dario Ragusa\Desktop\GitHub projects\JWLibrary-ImagesAdder\JWLibrary-ImagesAdder\bin\Debug\Devart.Data.SQLite.dll
+C:\Users\Dario Ragusa\Desktop\GitHub projects\JWLibrary-ImagesAdder\JWLibrary-ImagesAdder\obj\x86\Debug\JWLibrary-ImagesAdder.vbprojResolveAssemblyReference.cache

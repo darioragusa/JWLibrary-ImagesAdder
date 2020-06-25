@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "JWLibrary-ImagesAdder", "JWLibrary-ImagesAdder\JWLibrary-ImagesAdder.vbproj", "{D31598A8-4424-4647-B980-FF4F80986D6A}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{F7E45D99-E2E1-4C1F-9294-0E27C7D40DB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D31598A8-4424-4647-B980-FF4F80986D6A}.Debug|x86.ActiveCfg = Debug|x86
+		{D31598A8-4424-4647-B980-FF4F80986D6A}.Debug|x86.Build.0 = Debug|x86
+		{D31598A8-4424-4647-B980-FF4F80986D6A}.Release|x86.ActiveCfg = Release|x86
+		{D31598A8-4424-4647-B980-FF4F80986D6A}.Release|x86.Build.0 = Release|x86
+		{F7E45D99-E2E1-4C1F-9294-0E27C7D40DB5}.Debug|x86.ActiveCfg = Debug
+		{F7E45D99-E2E1-4C1F-9294-0E27C7D40DB5}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
