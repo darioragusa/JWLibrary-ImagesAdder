@@ -56,11 +56,11 @@
             End If
             Dim docID As Integer = GetDocumentID(dbDir, weekN)
             AddImg(dbDir, docID, imgList)
-            MsgBox(Strings.Text2, MsgBoxStyle.OkOnly, Me.Text)
-            Me.Close()
-            'I have to close otherwise it gives error
-            'for some reason the database is not closed and trying to reopen it does not work
         Next
+        MsgBox(Strings.Text2, MsgBoxStyle.OkOnly, Me.Text)
+        Application.Restart()
+        'I have to close otherwise it gives error
+        'for some reason the database is not closed and trying to reopen it does not work
     End Sub
 
     Sub ChangeLanguage()
@@ -72,9 +72,10 @@
             Strings.Error4Text = "Chiudi JW Library per continuare"
             Strings.Text1 = "Immagini"
             Strings.Text2 = "Il mio lavoro qui è finito"
+            Strings.Text3 = "Pubblicazioni ripristinate"
             ButtonSelect.Text = "Seleziona le immagini da aggiungere"
             ButtonDelete.Text = "Elimina"
-            ButtonAdd.Text = "Aggiungi le immagini"
+            ButtonAdd_Menu.Text = "Aggiungi immagini"
             ButtonRestoreAll.Text = "Ripristina pubblicazioni originali"
         End If
     End Sub
@@ -86,6 +87,7 @@
         Shared Error4Text As String = "Close JW Library to continue"
         Shared Text1 As String = "Images"
         Shared Text2 As String = "My job here is done"
+        Shared Text3 As String = "Publications restored"
     End Structure
 
     Private Sub ButtonRestoreAll_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonRestoreAll.Click
@@ -95,7 +97,7 @@
                 restoreBackup(directory)
             End If
         Next
-_endRestore:
+        MsgBox(Strings.Text3, MsgBoxStyle.OkOnly, Me.Text)
     End Sub
 
     Function ChecKJW() As Boolean
@@ -109,8 +111,11 @@ _check:
             Else
                 GoTo _check
             End If
-
         End If
         Return True
     End Function
+
+    Private Sub ButtonAdd_Menu_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonAdd_Menu.Click
+        Panel1.Hide()
+    End Sub
 End Class

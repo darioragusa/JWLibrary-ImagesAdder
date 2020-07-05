@@ -27,12 +27,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_82336AFC05D73FEA46616D04077306C3"
-        "OwnerKey" = "8:_33405BB5380D40E8A088097EB94A5298"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_A19BA72E9BFD43319BFF24C1D689B0BA"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -45,32 +39,38 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_C025EE3F787EE0E06929CC984A9030F3"
+        "MsmKey" = "8:_D7B5A14D5DDBCCAA3D3CEEAE12A586C3"
         "OwnerKey" = "8:_33405BB5380D40E8A088097EB94A5298"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_C025EE3F787EE0E06929CC984A9030F3"
-        "OwnerKey" = "8:_82336AFC05D73FEA46616D04077306C3"
+        "MsmKey" = "8:_D7B5A14D5DDBCCAA3D3CEEAE12A586C3"
+        "OwnerKey" = "8:_E36A1283C95DBD75043FCE0E4C713A17"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C025EE3F787EE0E06929CC984A9030F3"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_E36A1283C95DBD75043FCE0E4C713A17"
         "OwnerKey" = "8:_33405BB5380D40E8A088097EB94A5298"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_82336AFC05D73FEA46616D04077306C3"
+        "OwnerKey" = "8:_33405BB5380D40E8A088097EB94A5298"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_E36A1283C95DBD75043FCE0E4C713A17"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_D7B5A14D5DDBCCAA3D3CEEAE12A586C3"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -91,6 +91,27 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -107,6 +128,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -156,37 +185,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_82336AFC05D73FEA46616D04077306C3"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Devart.Data.SQLite, Version=5.14.1504.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_82336AFC05D73FEA46616D04077306C3"
-                    {
-                    "Name" = "8:Devart.Data.SQLite.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Devart.Data.SQLite.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_7B9481A46AEF4B66A23F51A584F0BE19"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A19BA72E9BFD43319BFF24C1D689B0BA"
             {
             "SourcePath" = "8:..\\JWLibrary-ImagesAdder\\bin\\Debug\\sqlite3.def"
@@ -227,20 +225,51 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C025EE3F787EE0E06929CC984A9030F3"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D7B5A14D5DDBCCAA3D3CEEAE12A586C3"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:Devart.Data, Version=5.0.2296.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_C025EE3F787EE0E06929CC984A9030F3"
+                    "_D7B5A14D5DDBCCAA3D3CEEAE12A586C3"
                     {
                     "Name" = "8:Devart.Data.dll"
                     "Attributes" = "3:512"
                     }
                 }
             "SourcePath" = "8:Devart.Data.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_7B9481A46AEF4B66A23F51A584F0BE19"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E36A1283C95DBD75043FCE0E4C713A17"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Devart.Data.SQLite, Version=5.14.1504.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_E36A1283C95DBD75043FCE0E4C713A17"
+                    {
+                    "Name" = "8:Devart.Data.SQLite.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Devart.Data.SQLite.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_7B9481A46AEF4B66A23F51A584F0BE19"
@@ -314,15 +343,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:JWLibrary-ImagesAdder"
-        "ProductCode" = "8:{31675570-16CF-4420-931D-2F053A9934CE}"
-        "PackageCode" = "8:{A69825FF-AE44-4E41-8980-FBC1C143AECD}"
+        "ProductCode" = "8:{41D057B9-095B-4628-B2C9-F3C7BAEE3FC8}"
+        "PackageCode" = "8:{AA9C8A3B-01DD-4648-9C46-6E8274C911A7}"
         "UpgradeCode" = "8:{7BEDD783-6DAF-41FD-81FE-8C90CC13320E}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.0.0"
+        "ProductVersion" = "8:1.0.1"
         "Manufacturer" = "8:Dario Ragusa"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
