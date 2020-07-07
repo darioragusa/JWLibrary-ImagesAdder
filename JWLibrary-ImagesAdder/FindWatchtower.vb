@@ -64,9 +64,11 @@ Module FindWatchtower
         Dim wtDirArray As New List(Of String)
         For Each pubDirectory In IO.Directory.EnumerateDirectories(wtPath)
             Dim pubName As String = pubDirectory.ToString.Split("\").Last
+            If Not pubName.Contains("w_") Or currentTagN.Length < 6 Then GoTo _endFor
             If pubName.StartsWith("w_") And pubName.EndsWith(currentTagN.Substring(0, 6)) Then 'Getting watchtower directories
                 wtDirArray.Add(pubDirectory)
             End If
+_endFor:
         Next
 
         Return wtDirArray
