@@ -4,16 +4,16 @@ Imports Devart.Data.SQLite
 
 Module FindWatchtower
     Function findWatchtowerDirectory() As String
-        Dim direcrory As String = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) & "\Packages"
-        If IO.Directory.Exists(direcrory) Then
-            For Each Dir As String In Directory.GetDirectories(direcrory)
+        Dim path As String = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) & "\Packages"
+        If IO.Directory.Exists(path) Then
+            For Each Dir As String In Directory.GetDirectories(path)
                 If LCase(Dir).Contains("watchtower") Then
-                    direcrory = Dir & "\LocalState\Publications"
+                    path = Dir & "\LocalState\Publications"
                     Exit For
                 End If
             Next
         End If
-        If IO.Directory.Exists(direcrory) Then Return direcrory Else Return ""
+        If IO.Directory.Exists(path) Then Return path Else Return ""
     End Function
 
     Function existWhatchtowerDirectory() As Boolean
